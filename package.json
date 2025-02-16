@@ -1,0 +1,21 @@
+{
+  "name": "site-esportfy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix api-esportfy && npm install --prefix sportfy && npm run build --prefix sportfy",
+    "start": "npm run start --prefix api-esportfy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonio-kelr/SpotifyClone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonio-kelr/SpotifyClone/issues"
+  },
+  "homepage": "https://github.com/antonio-kelr/SpotifyClone#readme",
+  "description": "Projeto Spotify Clone"
+}
