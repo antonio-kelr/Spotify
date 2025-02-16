@@ -1,11 +1,11 @@
 import "./App.css";
 import Header from "./components/Header/Header";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Artist from "./components/pages/artist";
 import Songs from "./components/pages/songs";
 import HomeRouter from "./components/pages/HomeRouter";
-import Artists from "./components/pages/Artists";
 import Song from "./components/pages/Song";
+import Artist from "./components/pages/Artist";
+import Artists from "./components/pages/Artists";
 
 function App() {
   return (
